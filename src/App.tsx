@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Top from './Top/Top';
+import Laurels from './Laurels/Laurels';
+import Synopsis from './Synopsis/Synopsis';
+import Press from './Press/Press';
+import Screenings from './Screenings/Screenings';
+import Footer from './Footer/Footer';
+import Background from './Background/Background';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Top></Top>
+      <Laurels></Laurels>
+      <Synopsis></Synopsis>
+      <Press></Press>
+      <Screenings></Screenings>
+      <Footer></Footer>
+      <Background></Background>
+    </>
   );
 }
 

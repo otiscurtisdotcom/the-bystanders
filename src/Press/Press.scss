@@ -1,0 +1,71 @@
+@use './../styles/colors.scss' as colors;
+
+h3 {
+  color: white;
+  font-size: 90px;
+  font-family: 'toyler';
+  margin-bottom: 16px;
+}
+
+.press {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  > div {
+    display: flex;
+    width: 100%;
+
+    &:nth-child(even) {
+      justify-content: flex-end;
+    }
+  }
+
+  a {
+    background-color: colors.$pink;
+    box-shadow: 12px 12px 0px white;
+    display: block;
+    font-family: 'toyler';
+    padding: 40px;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.18s ease-out;
+    width: 40%;
+
+    p {
+      color: white;
+      font-size: 24px;
+      line-height: 24px;
+      margin-bottom: 10px;
+      position: relative;
+      text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+      transition: color 0.18s ease-out, text-shadow 0.18s ease-out;
+    }
+
+    h5 {
+      color: colors.$yellow;
+      display: block;
+      font-family: 'streets';
+      font-size: 32px;
+      margin: 0;
+      text-align: right;
+      transition: color 0.18s ease-out;
+      width: 100%;
+    }
+
+    &:hover {
+      background-color: white;
+      box-shadow: 18px 18px 0px colors.$yellow;
+      transform: translate(-2px, -2px);
+
+      p {
+        color: colors.$pink;
+        text-shadow: none;
+      }
+
+      h5 {
+        color: black;
+      }
+    }
+  }
+}

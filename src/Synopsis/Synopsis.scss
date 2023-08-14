@@ -1,0 +1,26 @@
+@use './../styles/colors.scss' as colors;
+
+.synopsis {
+  background-color: colors.$yellow;
+
+  .content-box {
+    width: calc(50% - 60px);
+  }
+
+  p {
+    color: black;
+    font-size: 32px;
+    margin-bottom: 28px;
+
+    & + p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+h2 {
+  color: colors.$pink;
+  font-size: 64px;
+  font-family: 'toyler';
+  margin-bottom: 16px;
+}

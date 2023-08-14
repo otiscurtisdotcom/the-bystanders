@@ -1,0 +1,29 @@
+@use './../styles/colors.scss' as colors;
+
+.insta {
+  align-items: center;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  text-decoration: none;
+
+  &:hover {
+    color: colors.$yellow;
+
+    svg {
+      fill: colors.$yellow;
+    }
+  }
+
+  span {
+    font-family: 'toyler';
+    font-size: 44px;
+    line-height: 30px;
+  }
+
+  svg {
+    fill: white;
+    margin: -7px 8px 0 0;
+    width: 28px;
+  }
+}

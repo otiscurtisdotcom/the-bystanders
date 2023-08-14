@@ -1,0 +1,27 @@
+@use './../styles/colors.scss' as colors;
+
+h1,
+h4 {
+  text-shadow: 2px 2px 4px black;
+}
+
+h1 {
+  color: colors.$yellow;
+  font-family: 'streets';
+  font-size: 140px;
+  letter-spacing: 0.07em;
+  position: relative;
+
+  span {
+    font-size: 42px;
+    left: -18px;
+    position: absolute;
+    top: -24px;
+  }
+}
+
+h4 {
+  font-size: 32px;
+  font-family: 'toyler';
+  text-align: center;
+}

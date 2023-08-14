@@ -1,0 +1,39 @@
+@use './../styles/colors.scss' as colors;
+
+.screenings-wrapper {
+  background: black;
+}
+
+.screenings-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+
+  .entry {
+    background: white;
+    padding: 30px;
+    width: 400px;
+
+    h5 {
+      color: colors.$yellow;
+      display: block;
+      font-family: 'streets';
+      font-size: 32px;
+      margin: 0 0 20px;
+    }
+
+    p {
+      color: black;
+
+      &:last-of-type {
+        margin-bottom: 20px;
+      }
+    }
+
+    div {
+      display: flex;
+      gap: 12px;
+    }
+  }
+}

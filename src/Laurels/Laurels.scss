@@ -1,0 +1,21 @@
+.laurels,
+.large-laurels {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  width: 100%;
+
+  img {
+    width: 100px;
+  }
+}
+
+.large-laurels {
+  margin-bottom: 30px;
+
+  img {
+    width: 200px;
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "COUNTRY": "MEXICO",
+    "CITY": "MEXICO CITY",
+    "CINEMA": "Poplar Cinematographer",
+    "DATE": "25/8/23",
+    "TIME": "16:00",
+    "BOOKING_LINK": "",
+    "FESTIVAL": "MACABRO",
+    "FESTIVAL_LINK": "https://macabro.mx/2023/pelicula/the-bystanders/"
+  },
+  {
+    "COUNTRY": "MEXICO",
+    "CITY": "MEXICO CITY",
+    "CINEMA": "National Cinematheque",
+    "DATE": "27/8/23",
+    "TIME": "15:00",
+    "BOOKING_LINK": "",
+    "FESTIVAL": "MACABRO",
+    "FESTIVAL_LINK": "https://macabro.mx/2023/pelicula/the-bystanders/"
+  },
+  {
+    "COUNTRY": "AUSTRALIA",
+    "CITY": "SYDNEY",
+    "CINEMA": "Event Cinemas Macquarie",
+    "DATE": "24/8/23",
+    "TIME": "20:40",
+    "BOOKING_LINK": "https://www.eventcinemas.com.au/Orders/Tickets#sessionId=13029563&bookingSource=www|movies",
+    "FESTIVAL": "SYDNEY SCI FI",
+    "FESTIVAL_LINK": "https://www.sydneysciencefictionfilmfestival.com.au/bystanders"
+  },
+  {
+    "COUNTRY": "AUSTRALIA",
+    "CITY": "MELBOURNE",
+    "CINEMA": "Cinema Nova",
+    "DATE": "2/9/23",
+    "TIME": "18:10",
+    "BOOKING_LINK": "https://www.cinemanova.com.au/films/sfff-bystanders-the",
+    "FESTIVAL": "SYDNEY SCI FI",
+    "FESTIVAL_LINK": "https://www.sydneysciencefictionfilmfestival.com.au/bystanders"
+  }
+]
